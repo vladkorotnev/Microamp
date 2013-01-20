@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82BE81D216AC384800F50E71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BE81D116AC384800F50E71 /* Cocoa.framework */; };
+		82BE81DC16AC384800F50E71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82BE81DA16AC384800F50E71 /* InfoPlist.strings */; };
+		82BE81DE16AC384800F50E71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE81DD16AC384800F50E71 /* main.m */; };
+		82BE81E216AC384800F50E71 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82BE81E016AC384800F50E71 /* Credits.rtf */; };
+		82BE81E516AC384800F50E71 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE81E416AC384800F50E71 /* MAAppDelegate.m */; };
+		82BE81E816AC384800F50E71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82BE81E616AC384800F50E71 /* MainMenu.xib */; };
+		82BE81F116AC398100F50E71 /* play-glyph.png in Resources */ = {isa = PBXBuildFile; fileRef = 82BE81F016AC398100F50E71 /* play-glyph.png */; };
+		82BE81F316AC3DE600F50E71 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BE81F216AC3DE600F50E71 /* AVFoundation.framework */; };
+		82BE81F516AC424600F50E71 /* 1358716682_media-tape.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82BE81F416AC424600F50E71 /* 1358716682_media-tape.icns */; };
+		82BE81FB16AC427100F50E71 /* 1358716682_media-tape.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82BE81FA16AC427100F50E71 /* 1358716682_media-tape.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82BE81CD16AC384800F50E71 /* Microamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Microamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BE81D116AC384800F50E71 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82BE81D416AC384800F50E71 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82BE81D516AC384800F50E71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82BE81D616AC384800F50E71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82BE81D916AC384800F50E71 /* Microamp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Microamp-Info.plist"; sourceTree = "<group>"; };
+		82BE81DB16AC384800F50E71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82BE81DD16AC384800F50E71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82BE81DF16AC384800F50E71 /* Microamp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Microamp-Prefix.pch"; sourceTree = "<group>"; };
+		82BE81E116AC384800F50E71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82BE81E316AC384800F50E71 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
+		82BE81E416AC384800F50E71 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
+		82BE81E716AC384800F50E71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82BE81F016AC398100F50E71 /* play-glyph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-glyph.png"; sourceTree = "<group>"; };
+		82BE81F216AC3DE600F50E71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		82BE81F416AC424600F50E71 /* 1358716682_media-tape.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "1358716682_media-tape.icns"; sourceTree = "<group>"; };
+		82BE81FA16AC427100F50E71 /* 1358716682_media-tape.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "1358716682_media-tape.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BE81CA16AC384800F50E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BE81F316AC3DE600F50E71 /* AVFoundation.framework in Frameworks */,
+				82BE81D216AC384800F50E71 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82BE81C216AC384800F50E71 = {
+			isa = PBXGroup;
+			children = (
+				82BE81FA16AC427100F50E71 /* 1358716682_media-tape.icns */,
+				82BE81F216AC3DE600F50E71 /* AVFoundation.framework */,
+				82BE81D716AC384800F50E71 /* Microamp */,
+				82BE81D016AC384800F50E71 /* Frameworks */,
+				82BE81CE16AC384800F50E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82BE81CE16AC384800F50E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BE81CD16AC384800F50E71 /* Microamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BE81D016AC384800F50E71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82BE81D116AC384800F50E71 /* Cocoa.framework */,
+				82BE81D316AC384800F50E71 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82BE81D316AC384800F50E71 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82BE81D416AC384800F50E71 /* AppKit.framework */,
+				82BE81D516AC384800F50E71 /* CoreData.framework */,
+				82BE81D616AC384800F50E71 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82BE81D716AC384800F50E71 /* Microamp */ = {
+			isa = PBXGroup;
+			children = (
+				82BE81E316AC384800F50E71 /* MAAppDelegate.h */,
+				82BE81F416AC424600F50E71 /* 1358716682_media-tape.icns */,
+				82BE81E416AC384800F50E71 /* MAAppDelegate.m */,
+				82BE81F016AC398100F50E71 /* play-glyph.png */,
+				82BE81E616AC384800F50E71 /* MainMenu.xib */,
+				82BE81D816AC384800F50E71 /* Supporting Files */,
+			);
+			path = Microamp;
+			sourceTree = "<group>";
+		};
+		82BE81D816AC384800F50E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82BE81D916AC384800F50E71 /* Microamp-Info.plist */,
+				82BE81DA16AC384800F50E71 /* InfoPlist.strings */,
+				82BE81DD16AC384800F50E71 /* main.m */,
+				82BE81DF16AC384800F50E71 /* Microamp-Prefix.pch */,
+				82BE81E016AC384800F50E71 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BE81CC16AC384800F50E71 /* Microamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BE81EB16AC384800F50E71 /* Build configuration list for PBXNativeTarget "Microamp" */;
+			buildPhases = (
+				82BE81C916AC384800F50E71 /* Sources */,
+				82BE81CA16AC384800F50E71 /* Frameworks */,
+				82BE81CB16AC384800F50E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Microamp;
+			productName = Microamp;
+			productReference = 82BE81CD16AC384800F50E71 /* Microamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BE81C416AC384800F50E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vladislav Korotnev";
+			};
+			buildConfigurationList = 82BE81C716AC384800F50E71 /* Build configuration list for PBXProject "Microamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82BE81C216AC384800F50E71;
+			productRefGroup = 82BE81CE16AC384800F50E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BE81CC16AC384800F50E71 /* Microamp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BE81CB16AC384800F50E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BE81DC16AC384800F50E71 /* InfoPlist.strings in Resources */,
+				82BE81E216AC384800F50E71 /* Credits.rtf in Resources */,
+				82BE81E816AC384800F50E71 /* MainMenu.xib in Resources */,
+				82BE81F116AC398100F50E71 /* play-glyph.png in Resources */,
+				82BE81F516AC424600F50E71 /* 1358716682_media-tape.icns in Resources */,
+				82BE81FB16AC427100F50E71 /* 1358716682_media-tape.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BE81C916AC384800F50E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BE81DE16AC384800F50E71 /* main.m in Sources */,
+				82BE81E516AC384800F50E71 /* MAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82BE81DA16AC384800F50E71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BE81DB16AC384800F50E71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82BE81E016AC384800F50E71 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BE81E116AC384800F50E71 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82BE81E616AC384800F50E71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BE81E716AC384800F50E71 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82BE81E916AC384800F50E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82BE81EA16AC384800F50E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82BE81EC16AC384800F50E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Microamp/Microamp-Prefix.pch";
+				INFOPLIST_FILE = "Microamp/Microamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82BE81ED16AC384800F50E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Microamp/Microamp-Prefix.pch";
+				INFOPLIST_FILE = "Microamp/Microamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BE81C716AC384800F50E71 /* Build configuration list for PBXProject "Microamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BE81E916AC384800F50E71 /* Debug */,
+				82BE81EA16AC384800F50E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BE81EB16AC384800F50E71 /* Build configuration list for PBXNativeTarget "Microamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BE81EC16AC384800F50E71 /* Debug */,
+				82BE81ED16AC384800F50E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BE81C416AC384800F50E71 /* Project object */;
+}
