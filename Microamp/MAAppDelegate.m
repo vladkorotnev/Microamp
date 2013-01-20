@@ -98,9 +98,15 @@
     if (player == nil) 
         player = [[AVAudioPlayer alloc]initWithContentsOfURL:[playerItems objectAtIndex:curplay] error:nil];
     [player setDelegate:self];
-    if (player.isPlaying) 
+
+    if (player.isPlaying) {
+        [[[AVAudioPlayer alloc]initWithContentsOfURL:[[NSBundle mainBundle]URLForResource:@"stop" withExtension:@"wav"] error:nil]play];
         [player pause];
-     else [player play];
+    }
+    else {
+        [[[AVAudioPlayer alloc]initWithContentsOfURL:[[NSBundle mainBundle]URLForResource:@"play" withExtension:@"wav"] error:nil]play];
+        [player play];
+    }
     [self.table reloadData];
 }
 
