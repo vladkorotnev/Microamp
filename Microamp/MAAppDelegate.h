@@ -22,5 +22,14 @@
 - (IBAction)selBelowCur:(id)sender;
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSProgressIndicator *lowerBar;
+@property (assign) IBOutlet NSProgressIndicator *wheel;
+- (IBAction)volumeSlider:(NSSlider*)sender;
+- (IBAction)prevBtn:(id)sender;
+- (IBAction)nextBtn:(id)sender;
+
+@property (assign) IBOutlet NSProgressIndicator *higherBar;
+@property (assign) IBOutlet NSSlider *vol;
+
 
 @end
