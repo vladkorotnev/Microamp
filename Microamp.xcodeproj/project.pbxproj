@@ -19,6 +19,7 @@
 		82BE81F316AC3DE600F50E71 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BE81F216AC3DE600F50E71 /* AVFoundation.framework */; };
 		82BE81F516AC424600F50E71 /* 1358716682_media-tape.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82BE81F416AC424600F50E71 /* 1358716682_media-tape.icns */; };
 		82BE81FB16AC427100F50E71 /* 1358716682_media-tape.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82BE81FA16AC427100F50E71 /* 1358716682_media-tape.icns */; };
+		82E2FBF016DA0143009D8A1E /* MAApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E2FBEF16DA0143009D8A1E /* MAApp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		82BE81F216AC3DE600F50E71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		82BE81F416AC424600F50E71 /* 1358716682_media-tape.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "1358716682_media-tape.icns"; sourceTree = "<group>"; };
 		82BE81FA16AC427100F50E71 /* 1358716682_media-tape.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "1358716682_media-tape.icns"; sourceTree = "<group>"; };
+		82E2FBEE16DA0143009D8A1E /* MAApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAApp.h; sourceTree = "<group>"; };
+		82E2FBEF16DA0143009D8A1E /* MAApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAApp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +101,13 @@
 			isa = PBXGroup;
 			children = (
 				82BE81E316AC384800F50E71 /* MAAppDelegate.h */,
-				82BE81F416AC424600F50E71 /* 1358716682_media-tape.icns */,
 				82BE81E416AC384800F50E71 /* MAAppDelegate.m */,
+				82E2FBEE16DA0143009D8A1E /* MAApp.h */,
+				82E2FBEF16DA0143009D8A1E /* MAApp.m */,
 				82218A8F16AC597100FCF101 /* stop.wav */,
 				82218A9016AC597100FCF101 /* play.wav */,
 				82BE81F016AC398100F50E71 /* play-glyph.png */,
+				82BE81F416AC424600F50E71 /* 1358716682_media-tape.icns */,
 				82BE81E616AC384800F50E71 /* MainMenu.xib */,
 				82BE81D816AC384800F50E71 /* Supporting Files */,
 			);
@@ -193,6 +198,7 @@
 			files = (
 				82BE81DE16AC384800F50E71 /* main.m in Sources */,
 				82BE81E516AC384800F50E71 /* MAAppDelegate.m in Sources */,
+				82E2FBF016DA0143009D8A1E /* MAApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,12 +3,12 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1080</int>
 		<string key="IBDocument.SystemVersion">12C60</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
+		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
 		<string key="IBDocument.AppKitVersion">1187.34</string>
 		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">2844</string>
+			<string key="NS.object.0">3084</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSButton</string>
@@ -1324,7 +1324,7 @@
 										<object class="NSTableView" id="584865505">
 											<reference key="NSNextResponder" ref="134387686"/>
 											<int key="NSvFlags">256</int>
-											<string key="NSFrameSize">{387, 333}</string>
+											<string key="NSFrameSize">{387, 342}</string>
 											<reference key="NSSuperview" ref="134387686"/>
 											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="623814119"/>
@@ -1464,7 +1464,7 @@
 											<int key="NSTableViewGroupRowStyle">1</int>
 										</object>
 									</array>
-									<string key="NSFrame">{{1, 17}, {387, 333}}</string>
+									<string key="NSFrame">{{1, 17}, {387, 342}}</string>
 									<reference key="NSSuperview" ref="866256686"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="584865505"/>
@@ -1517,7 +1517,7 @@
 								</object>
 								<reference ref="185926216"/>
 							</array>
-							<string key="NSFrame">{{0, 46}, {389, 351}}</string>
+							<string key="NSFrame">{{0, 46}, {389, 360}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="129864920"/>
@@ -1594,17 +1594,18 @@
 						<object class="NSButton" id="997572979">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{20, 19}, {348, 19}}</string>
+							<array class="NSMutableArray" key="NSSubviews"/>
+							<string key="NSFrame">{{20, 19}, {175, 19}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
+							<reference key="NSNextKeyView" ref="585451940"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="864878275">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Play selection next</string>
-								<object class="NSFont" key="NSSupport">
+								<object class="NSFont" key="NSSupport" id="29">
 									<string key="NSName">LucidaGrande-Bold</string>
 									<double key="NSSize">12</double>
 									<int key="NSfFlags">16</int>
@@ -1637,7 +1638,7 @@
 							<string key="NSHuggingPriority">{250, 250}</string>
 							<int key="NSpiFlags">16653</int>
 							<double key="NSMinValue">-500</double>
-							<double key="NSMaxValue">1000</double>
+							<double key="NSMaxValue">-50</double>
 						</object>
 						<object class="NSProgressIndicator" id="412731270">
 							<reference key="NSNextResponder" ref="439893737"/>
@@ -1656,24 +1657,25 @@
 							<string key="NSHuggingPriority">{250, 250}</string>
 							<int key="NSpiFlags">16653</int>
 							<double key="NSMinValue">-500</double>
-							<double key="NSMaxValue">1000</double>
+							<double key="NSMaxValue">-50</double>
 						</object>
 						<object class="NSProgressIndicator" id="665231629">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{207, 429}, {32, 32}}</string>
+							<string key="NSFrame">{{-1, -1}, {390, 20}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="598528221"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSHuggingPriority">{250, 250}</string>
-							<int key="NSpiFlags">20493</int>
+							<int key="NSpiFlags">16397</int>
 							<double key="NSMaxValue">100</double>
 						</object>
 						<object class="NSButton" id="1014135229">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{151, 456}, {44, 25}}</string>
+							<array class="NSMutableArray" key="NSSubviews"/>
+							<string key="NSFrame">{{174, 456}, {65, 25}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="421564395"/>
@@ -1698,7 +1700,8 @@
 						<object class="NSButton" id="557578805">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{102, 456}, {44, 25}}</string>
+							<array class="NSMutableArray" key="NSSubviews"/>
+							<string key="NSFrame">{{102, 456}, {64, 25}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="1014135229"/>
@@ -1723,7 +1726,7 @@
 						<object class="NSSlider" id="421564395">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{100, 414}, {97, 26}}</string>
+							<string key="NSFrame">{{100, 414}, {141, 26}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="665231629"/>
@@ -1743,6 +1746,32 @@
 								<int key="NSTickMarkPosition">1</int>
 								<bool key="NSAllowsTickMarkValuesOnly">YES</bool>
 								<bool key="NSVertical">NO</bool>
+							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+						</object>
+						<object class="NSButton" id="585451940">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
+							<string key="NSFrame">{{207, 19}, {175, 19}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
+							<string key="NSReuseIdentifierKey">_NS:9</string>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSButtonCell" key="NSCell" id="972634842">
+								<int key="NSCellFlags">67108864</int>
+								<int key="NSCellFlags2">134217728</int>
+								<string key="NSContents">Delete selection</string>
+								<reference key="NSSupport" ref="29"/>
+								<string key="NSCellIdentifier">_NS:9</string>
+								<reference key="NSControlView" ref="585451940"/>
+								<int key="NSButtonFlags">-2038284288</int>
+								<int key="NSButtonFlags2">45</int>
+								<string key="NSAlternateContents"/>
+								<string key="NSKeyEquivalent"></string>
+								<int key="NSPeriodicDelay">200</int>
+								<int key="NSPeriodicInterval">25</int>
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
@@ -2541,6 +2570,14 @@
 					</object>
 					<int key="connectionID">591</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">delsel:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="585451940"/>
+					</object>
+					<int key="connectionID">606</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -3071,11 +3108,12 @@
 							<reference ref="866256686"/>
 							<reference ref="548470088"/>
 							<reference ref="598528221"/>
+							<reference ref="997572979"/>
+							<reference ref="585451940"/>
 							<reference ref="665231629"/>
 							<reference ref="421564395"/>
 							<reference ref="1014135229"/>
 							<reference ref="557578805"/>
-							<reference ref="997572979"/>
 						</array>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3706,6 +3744,19 @@
 						<reference key="object" ref="157699290"/>
 						<reference key="parent" ref="421564395"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">603</int>
+						<reference key="object" ref="585451940"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="972634842"/>
+						</array>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">604</int>
+						<reference key="object" ref="972634842"/>
+						<reference key="parent" ref="585451940"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -3859,6 +3910,14 @@
 				<string key="551.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="552.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="553.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<object class="NSMutableDictionary" key="554.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">ToolTip</string>
+					<object class="IBToolTipAttribute" key="NS.object.0">
+						<string key="name">ToolTip</string>
+						<reference key="object" ref="774174637"/>
+						<string key="toolTip">You can use Option+Play</string>
+					</object>
+				</object>
 				<string key="554.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="559.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="56.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3876,13 +3935,35 @@
 				<real value="0.0" key="572.IBViewIntegration.shadowOffsetHeight"/>
 				<real value="0.0" key="572.IBViewIntegration.shadowOffsetWidth"/>
 				<string key="575.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<real value="4" key="575.IBViewIntegration.shadowBlurRadius"/>
+				<reference key="575.IBViewIntegration.shadowColor" ref="549446766"/>
+				<real value="2" key="575.IBViewIntegration.shadowOffsetHeight"/>
+				<real value="2" key="575.IBViewIntegration.shadowOffsetWidth"/>
+				<object class="NSMutableDictionary" key="577.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">ToolTip</string>
+					<object class="IBToolTipAttribute" key="NS.object.0">
+						<string key="name">ToolTip</string>
+						<reference key="object" ref="1014135229"/>
+						<string key="toolTip">You can use Option+Next</string>
+					</object>
+				</object>
 				<string key="577.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="578.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<object class="NSMutableDictionary" key="579.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">ToolTip</string>
+					<object class="IBToolTipAttribute" key="NS.object.0">
+						<string key="name">ToolTip</string>
+						<reference key="object" ref="557578805"/>
+						<string key="toolTip">You can use Option+Prev</string>
+					</object>
+				</object>
 				<string key="579.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="58.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="580.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="586.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="587.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="603.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="604.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="72.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="73.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="74.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3899,7 +3980,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">602</int>
+			<int key="maxID">611</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3908,6 +3989,7 @@
 					<string key="superclassName">NSObject</string>
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="add:">id</string>
+						<string key="delsel:">id</string>
 						<string key="nextBtn:">id</string>
 						<string key="playClick:">id</string>
 						<string key="prevBtn:">id</string>
@@ -3917,6 +3999,10 @@
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
 						<object class="IBActionInfo" key="add:">
 							<string key="name">add:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="delsel:">
+							<string key="name">delsel:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="nextBtn:">

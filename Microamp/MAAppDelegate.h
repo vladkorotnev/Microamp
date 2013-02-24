@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import <AVFoundation/AVFoundation.h>
+
+
 @interface MAAppDelegate : NSObject <NSApplicationDelegate,NSTableViewDataSource,NSTableViewDelegate,AVAudioPlayerDelegate> {
     NSMutableArray*playerItems;
     AVAudioPlayer * player;
@@ -31,5 +33,6 @@
 @property (assign) IBOutlet NSProgressIndicator *higherBar;
 @property (assign) IBOutlet NSSlider *vol;
 
+- (IBAction)delsel:(id)sender;
 
 @end
